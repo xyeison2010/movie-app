@@ -1,0 +1,24 @@
+.detailsContainer {
+  display: flex;
+  justify-content: center; /*centrar*/
+  flex-wrap: wrap; /*cuando se achique y ya no cabe la info, lo pone debajo*/
+}
+
+.col {
+  max-width: 400px; /*doy como valor un ancho maximo, para q tengan un ancho fijo y no agarren toda la pantalla*/
+  margin: 15px;
+  height: auto;
+  width: 80%;
+}
+
+.movieImage {
+  border-radius: 15px; /*redondea*/
+}
+
+.movieDetails {
+  font-size: 1.5rem;
+}
+
+.firstItem {
+  margin-top: 0;
+}
